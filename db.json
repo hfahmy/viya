@@ -1,14 +1,199 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "sector": {
+    "attr": {
+      "sctr": 0
+    },
+    "data": [
+      {
+        "id": 101,
+        "type": "banner",
+        "text": "The real economy concerns the flow of goods and services (like oil, bread and labor hours), compared with the monetary sector that covers the circulation of money.",
+        "action": {
+          "type": "dismiss",
+          "name": "Got it!"
+        }
+      },
+      {
+        "data": [
+          {
+            "id": 1,
+            "type": "heading",
+            "title": "Tourism"
+          },
+          {
+            "id": 2,
+            "type": "image",
+            "res": "tourism_banner"
+          },
+          {
+            "id": 3,
+            "type": "text",
+            "text": "The tourism sector continues it’s resilient growth with start of two new airlines from China and Australia."
+          },
+          {
+            "data": [
+              {
+                "id": 100,
+                "type": "val",
+                "name": "tourist arrivals",
+                "date": "2019-12-01",
+                "value": 129923,
+                "scale": "k",
+                "freq": "m",
+                "is_flow": true,
+                "unit": "tourists",
+                "pch": 0.12,
+                "show_chart": true,
+                "action": {
+                  "type": "open",
+                  "api": "data"
+                },
+                "sctr": 2
+              },
+              {
+                "id": 100,
+                "type": "comp",
+                "name": "tourist arrivals",
+                "date": "2019-12-01",
+                "comp": {
+                  "labels": [
+                    "China",
+                    "UK",
+                    "Germany",
+                    "Russia",
+                    "Australia",
+                    "Other"
+                  ],
+                  "values": [
+                    0.38,
+                    0.29,
+                    0.11,
+                    0.09,
+                    0.08,
+                    0.05
+                  ]
+                },
+                "action": {
+                  "type": "open",
+                  "api": "data"
+                }
+              },
+              {
+                "id": 100,
+                "type": "chg",
+                "name": "tourist arrivals",
+                "date": "2019-12-01",
+                "value": 13101,
+                "scale": "k",
+                "freq": "a",
+                "unit": "tourists",
+                "action": {
+                  "type": "open",
+                  "api": "data"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "id": 1,
+            "type": "heading",
+            "title": "Inflation"
+          },
+          {
+            "id": 2,
+            "type": "image",
+            "res": "inflation_banner"
+          },
+          {
+            "id": 3,
+            "type": "text",
+            "text": "Quid ex ea voluptate et caritatem, quae dices, libenter assentiar probabo, inquit, modo ista sis aequitate, quam interrogare aut voluptates omittantur maiorum dolorum effugiendorum gratia  ex eo delectu rerum, quem modo dixi, constituto, ut labore et accurate disserendum et dolore disputandum putant sed ut."
+          },
+          {
+            "attr:": {
+              "scroll": "h",
+              "sctr": 2
+            },
+            "data": [
+              {
+                "id": 100,
+                "type": "val",
+                "name": "inflation",
+                "date": "2019-12-01",
+                "value": 0.124,
+                "scale": "o",
+                "freq": "m",
+                "is_flow": false,
+                "unit": "percent",
+                "action": {
+                  "type": "open",
+                  "api": "data"
+                }
+              },
+              {
+                "id": 100,
+                "type": "chg",
+                "name": "inflation",
+                "date": "2019-12-01",
+                "value": 0.012,
+                "scale": "o",
+                "freq": "m",
+                "unit": "percent",
+                "action": {
+                  "type": "open",
+                  "api": "data"
+                }
+              },
+              {
+                "id": 100,
+                "type": "chg",
+                "name": "inflation",
+                "date": "2019-12-01",
+                "value": -0.013,
+                "scale": "o",
+                "freq": "a",
+                "unit": "percent",
+                "action": {
+                  "type": "open",
+                  "api": "data"
+                }
+              },
+              {
+                "id": 100,
+                "type": "comp",
+                "name": "inflation",
+                "date": "2019-12-01",
+                "comp": {
+                  "labels": [
+                    "Food",
+                    "Housing",
+                    "Clothing",
+                    "Utility",
+                    "Health",
+                    "Other"
+                  ],
+                  "values": [
+                    0.38,
+                    0.29,
+                    0.11,
+                    0.09,
+                    0.08,
+                    0.05
+                  ]
+                },
+                "action": {
+                  "type": "open",
+                  "api": "data"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
