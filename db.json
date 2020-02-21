@@ -26,7 +26,7 @@
           },
           {
             "id": 2,
-            "type": "image",
+            "type": "img",
             "res": "tourism_banner"
           },
           {
@@ -103,7 +103,7 @@
           },
           {
             "id": 2,
-            "type": "image",
+            "type": "img",
             "res": "inflation_banner"
           },
           {
