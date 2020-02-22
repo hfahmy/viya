@@ -1,7 +1,7 @@
 {
   "sector": {
     "id": 100,
-    "type": "feed",
+    "type": "list",
     "attr": {
       "sctr": 0
     },
@@ -18,7 +18,7 @@
       },
       {
         "id": 100,
-        "type": "feed",
+        "type": "list",
         "data": [
           {
             "id": 1,
@@ -37,14 +37,14 @@
           },
           {
             "id": 100,
-            "type": "feed",
+            "type": "list",
             "data": [
               {
                 "id": 100,
                 "type": "val",
                 "name": "tourist arrivals",
                 "date": "2019-12-01",
-                "value": NaN,
+                "value": 129923,
                 "scale": "k",
                 "is_flow": true,
                 "unit": "tourists",
@@ -97,7 +97,7 @@
       },
       {
         "id": 100,
-        "type": "feed",
+        "type": "list",
         "data": [
           {
             "id": 1,
@@ -116,7 +116,7 @@
           },
           {
             "id": 100,
-            "type": "feed",
+            "type": "list",
             "attr:": {
               "scroll": "h",
               "sctr": "2"

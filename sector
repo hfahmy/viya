@@ -1,6 +1,6 @@
 {
   "id": 100,
-  "type": "feed",
+  "type": "list",
   "attr": {
     "sctr": 0
   },
@@ -17,7 +17,7 @@
     },
     {
       "id": 100,
-      "type": "feed",
+      "type": "list",
       "data": [
         {
           "id": 1,
@@ -36,7 +36,7 @@
         },
         {
           "id": 100,
-          "type": "feed",
+          "type": "list",
           "data": [
             {
               "id": 100,
@@ -96,7 +96,7 @@
     },
     {
       "id": 100,
-      "type": "feed",
+      "type": "list",
       "data": [
         {
           "id": 1,
@@ -115,7 +115,7 @@
         },
         {
           "id": 100,
-          "type": "feed",
+          "type": "list",
           "attr:": {
             "scroll": "h",
             "sctr": "2"
