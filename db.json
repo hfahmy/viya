@@ -45,16 +45,18 @@
                 "date": "2019-12-01",
                 "value": 129923,
                 "scale": "k",
-                "freq": "m",
                 "is_flow": true,
                 "unit": "tourists",
                 "pch": 0.12,
+                "pch_intvl": "m",
                 "show_chart": true,
                 "action": {
                   "type": "open",
                   "api": "data"
                 },
-                "sctr": 2
+                "attr": {
+                  "sctr": 2
+                }
               },
               {
                 "id": 100,
@@ -126,7 +128,6 @@
                 "date": "2019-12-01",
                 "value": 0.124,
                 "scale": "o",
-                "freq": "m",
                 "is_flow": false,
                 "unit": "percent",
                 "action": {
