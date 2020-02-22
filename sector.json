@@ -43,7 +43,7 @@
               "type": "val",
               "name": "tourist arrivals",
               "date": "2019-12-01",
-              "value": 129923,
+              "value": NaN,
               "scale": "k",
               "is_flow": true,
               "unit": "tourists",
