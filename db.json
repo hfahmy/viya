@@ -249,12 +249,12 @@
         }
       },
       "source": "Ministry of Tourism",
-      "def": {
+      "note": {
         "id": 1,
         "title": "Definition of tourist arrival",
         "text": "Quid ex eo ortum, tam..."
       },
-      "qna": {
+      "qa": {
         "id": 1,
         "title": "Tum dicere exorsus...",
         "text": "Quid ex eo ortum, tam..."
