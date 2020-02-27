@@ -187,5 +187,80 @@
         ]
       }
     ]
+  },
+  "db": {
+    "series": {
+      "type": "page",
+      "data": {
+        "id": 100,
+        "name": "Tourist arrivals",
+        "sctr": "0",
+        "path": [
+          "Tourism"
+        ],
+        "unit": "tourists",
+        "freq": "m",
+        "is_flow": true,
+        "ts_date": "2018-12-01",
+        "ts": [
+          150818,
+          151552,
+          168583,
+          162843,
+          163114,
+          103022,
+          113475,
+          132144,
+          139338,
+          117619,
+          141928,
+          137921,
+          171348
+        ],
+        "comp": {
+          "m": {
+            "2018-11-01": {
+              "China": 0.38,
+              "UK": 0.29,
+              "Germany": 0.11,
+              "Russia": 0.09,
+              "Australia": 0.08,
+              "Other": 0.05
+            }
+          },
+          "q": {
+            "2018-09-01": {
+              "China": 0.38,
+              "UK": 0.29,
+              "Germany": 0.11,
+              "Russia": 0.09,
+              "Australia": 0.08,
+              "Other": 0.05
+            }
+          },
+          "a": {
+            "2019-12-01": {
+              "China": 0.38,
+              "UK": 0.29,
+              "Germany": 0.11,
+              "Russia": 0.09,
+              "Australia": 0.08,
+              "Other": 0.05
+            }
+          }
+        },
+        "source": "Ministry of Tourism",
+        "def": {
+          "id": 1,
+          "title": "Definition of tourist arrival",
+          "text": "Quid ex eo ortum, tam..."
+        },
+        "qna": {
+          "id": 1,
+          "title": "Tum dicere exorsus...",
+          "text": "Quid ex eo ortum, tam..."
+        }
+      }
+    }
   }
 }
