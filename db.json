@@ -188,7 +188,7 @@
       }
     ]
   },
-  "db": {
+  "ddb": {
     "series": {
       "type": "page",
       "data": {
