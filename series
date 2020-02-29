@@ -1,5 +1,5 @@
 {
-  "type": "page",
+  "type": "ds_page",
   "data": {
     "id": 100,
     "name": "Tourist arrivals",
