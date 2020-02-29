@@ -1,0 +1,43 @@
+{
+	"type": "pub_page",
+  "data": {
+    "id": 100,
+    "title": "Quarterly Economic Bulletin",
+    "desc": "At magnum periculum adiit in oculis...",
+    "date": "2018-09-01",
+    "iss": "Volume 22 Issue 3",
+    "cover": {
+      "id": 100,
+      "type": "img",
+      "res": "cover"
+    },
+    "attr": {
+      "No. of pages": "48 pages",
+      "Languages": "Dhivehi, English"
+    },
+    "actions": [
+      {
+        "action": {
+          "type": "dl",
+          "api": "files",
+          "args": {
+            "id": "100"
+          },
+          "name": "Dhivehi report",
+          "md5": "f18514e7ff2c9107a2d0a2cc547c91d9"
+        }
+      },
+      {
+        "action": {
+          "type": "dl",
+          "api": "files",
+          "args": {
+            "id": "100"
+          },
+          "name": "English report",
+          "md5": "1a51ba2ecf2f948ff0cbbed2ae3343fa"
+        }
+      }
+    ]
+  }
+}
