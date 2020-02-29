@@ -37,13 +37,16 @@
         {
           "id": 100,
           "type": "list",
+          "attr": {
+            "is_grid": true
+          },
           "data": [
             {
               "id": 100,
               "type": "val",
               "name": "tourist arrivals",
               "date": "2019-12-01",
-              "value": NaN,
+              "value": 129923,
               "scale": "k",
               "is_flow": true,
               "unit": "tourists",
@@ -117,6 +120,7 @@
           "id": 100,
           "type": "list",
           "attr:": {
+            "is_grid": true,
             "scroll": "h",
             "sctr": "2"
           },

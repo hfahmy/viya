@@ -38,6 +38,9 @@
           {
             "id": 100,
             "type": "list",
+            "attr": {
+              "is_grid": true
+            },
             "data": [
               {
                 "id": 100,
@@ -118,6 +121,7 @@
             "id": 100,
             "type": "list",
             "attr:": {
+              "is_grid": true,
               "scroll": "h",
               "sctr": "2"
             },
