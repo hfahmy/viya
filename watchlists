@@ -18,19 +18,6 @@
     {
       "id": 100,
       "type": "text",
-      "title": "Shopaholic",
-      "text": "For those of you who are interested in knowing if prices are creeping up or skyrocketing, this list is a must have list.",
-      "action": {
-        "type": "open",
-        "api": "snippets",
-        "args": {
-          "tmpl_id": 999
-        }
-      }
-    },
-    {
-      "id": 100,
-      "type": "text",
       "title": "Wholesales & Retail",
       "text": "This set of indicators will keep you informed of the trends imports and local prices.",
       "action": {
