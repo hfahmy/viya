@@ -1,0 +1,97 @@
+{
+  "id": 100,
+  "type": "list",
+  "data": [
+    {
+      "id": 100,
+      "type": "text",
+      "title": "Shopaholic",
+      "text": "For those of you who are interested in knowing if prices are creeping up or skyrocketing, this list is a must have list.",
+      "action": {
+        "type": "open",
+        "api": "snippets",
+        "args": {
+          "tmpl_id": 999
+        }
+      }
+    },
+    {
+      "id": 100,
+      "type": "text",
+      "title": "Shopaholic",
+      "text": "For those of you who are interested in knowing if prices are creeping up or skyrocketing, this list is a must have list.",
+      "action": {
+        "type": "open",
+        "api": "snippets",
+        "args": {
+          "tmpl_id": 999
+        }
+      }
+    },
+    {
+      "id": 100,
+      "type": "text",
+      "title": "Wholesales & Retail",
+      "text": "This set of indicators will keep you informed of the trends imports and local prices.",
+      "action": {
+        "type": "open",
+        "api": "snippets",
+        "args": {
+          "tmpl_id": 999
+        }
+      }
+    },
+    {
+      "id": 100,
+      "type": "text",
+      "title": "Money & Banking",
+      "text": "Important indicators for those who are engaged in banking, insurance and borrowing sector.",
+      "action": {
+        "type": "open",
+        "api": "snippets",
+        "args": {
+          "tmpl_id": 999
+        }
+      }
+    },
+    {
+      "id": 100,
+      "type": "text",
+      "title": "Sukhmeet Gorae",
+      "text": "Torquatos nostros? quos dolores suscipiantur maiorum dolorum fuga et quale.",
+      "action": {
+        "type": "open",
+        "api": "snippets",
+        "args": {
+          "tmpl_id": 999
+        }
+      }
+    },
+    {
+      "id": 100,
+      "type": "text",
+      "title": "El Pasha",
+      "text": "Hanc ego cum soluta nobis est primum igitur, inquit, sic agam, ut et fortibus viris commemorandis eorumque.",
+      "action": {
+        "type": "open",
+        "api": "snippets",
+        "args": {
+          "tmpl_id": 999
+        }
+      }
+    },
+    {
+      "id": 100,
+      "type": "text",
+      "title": "Martijn Dragonjer",
+      "text": "Filium morte multavit si sine causa? quae fuerit causa, nollem.",
+      "action": {
+        "type": "open",
+        "api": "snippets",
+        "args": {
+          "tmpl_id": 999
+        }
+      }
+    }
+  ]
+}
