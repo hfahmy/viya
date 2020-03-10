@@ -1,0 +1,118 @@
+{
+  "id": 100,
+  "type": "list",
+  "data": [
+    {
+      "id": 100,
+      "type": "list",
+      "attr": {
+        "sctr": 0
+      },
+      "data": [
+        {
+          "id": 100,
+          "type": "text",
+          "title": "real sector"
+        },
+        {
+          "id": 100,
+          "type": "list",
+          "data": [
+            {
+              "id": 101,
+              "type": "text",
+              "title": "growth & production",
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
+            },
+            {
+              "id": 102,
+              "type": "text",
+              "title": "tourism",
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
+            },
+            {
+              "id": 102,
+              "type": "text",
+              "title": "fisheries",
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
+            },
+            {
+              "id": 102,
+              "type": "text",
+              "title": "prices",
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "list",
+      "attr": {
+        "sctr": 0
+      },
+      "data": [
+        {
+          "id": 100,
+          "type": "text",
+          "title": "fiscal sector"
+        },
+        {
+          "id": 100,
+          "type": "list",
+          "data": [
+            {
+              "id": 101,
+              "type": "text",
+              "title": "revenue & expenditure",
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
+            },
+            {
+              "id": 102,
+              "type": "text",
+              "title": "budget & finance",
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
+            },
+            {
+              "id": 102,
+              "type": "text",
+              "title": "debt",
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
+            },
+            {
+              "id": 102,
+              "type": "text",
+              "title": "borrowing",
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
