@@ -17,22 +17,38 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub1"
+              "res": "pub1",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             },
             {
               "id": 100,
               "type": "img",
-              "res": "pub2"
+              "res": "pub2",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             },
             {
               "id": 100,
               "type": "img",
-              "res": "pub3"
+              "res": "pub3",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             },
             {
               "id": 100,
               "type": "img",
-              "res": "pub4"
+              "res": "pub4",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             }
           ]
         }
@@ -54,22 +70,38 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub1"
+              "res": "pub1",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             },
             {
               "id": 100,
               "type": "img",
-              "res": "pub2"
+              "res": "pub2",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             },
             {
               "id": 100,
               "type": "img",
-              "res": "pub3"
+              "res": "pub3",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             },
             {
               "id": 100,
               "type": "img",
-              "res": "pub4"
+              "res": "pub4",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             }
           ]
         },
@@ -101,22 +133,38 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub1"
+              "res": "pub1",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             },
             {
               "id": 100,
               "type": "img",
-              "res": "pub2"
+              "res": "pub2",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             },
             {
               "id": 100,
               "type": "img",
-              "res": "pub3"
+              "res": "pub3",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             },
             {
               "id": 100,
               "type": "img",
-              "res": "pub4"
+              "res": "pub4",
+              "action": {
+                "type": "open",
+                "api": "pub/details"
+              }
             }
           ]
         },
