@@ -1,0 +1,122 @@
+{
+  "id": 100,
+  "type": "list",
+  "data": [
+    {
+      "id": 100,
+      "type": "list",
+      "attr": {
+        "title": "2020-04-13"
+      },
+      "data": [
+        {
+          "id": 100,
+          "type": "text",
+          "title": "MMA's Statement of Financial Position",
+          "is_banner": false,
+          "action": {
+            "type": "open",
+            "api": "cal/detail"
+          }
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "list",
+      "attr": {
+        "title": "2020-04-21"
+      },
+      "data": [
+        {
+          "id": 100,
+          "type": "text",
+          "title": "Gross International Reserve",
+          "is_banner": false,
+          "action": {
+            "type": "open",
+            "api": "cal/detail"
+          }
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "list",
+      "attr": {
+        "title": "2020-04-23"
+      },
+      "data": [
+        {
+          "id": 100,
+          "type": "text",
+          "title": "Gross International Reserve",
+          "is_banner": false,
+          "action": {
+            "type": "open",
+            "api": "cal/detail"
+          }
+        },
+        {
+          "id": 100,
+          "type": "text",
+          "title": "MMA's Statement of Financial Position",
+          "is_banner": false,
+          "action": {
+            "type": "open",
+            "api": "cal/detail"
+          }
+        },
+        {
+          "id": 100,
+          "type": "text",
+          "title": "Monthly Statistics",
+          "is_banner": false,
+          "action": {
+            "type": "open",
+            "api": "cal/detail"
+          }
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "list",
+      "attr": {
+        "title": "2020-04-26"
+      },
+      "data": [
+        {
+          "id": 100,
+          "type": "text",
+          "title": "Economic update",
+          "is_banner": false,
+          "action": {
+            "type": "open",
+            "api": "cal/detail"
+          }
+        },
+        {
+          "id": 100,
+          "type": "text",
+          "title": "MMA's Statement of Financial Position",
+          "is_banner": false,
+          "action": {
+            "type": "open",
+            "api": "cal/detail"
+          }
+        },
+        {
+          "id": 100,
+          "type": "text",
+          "title": "Monthly Statistics",
+          "is_banner": false,
+          "action": {
+            "type": "open",
+            "api": "cal/detail"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "event_page",
+  "data": {
+    "id": 100,
+    "title": "Monthly Update",
+    "desc": "At magnum periculum adiit in oculis...",
+    "date": "2020-04-26"
+  }
+}
