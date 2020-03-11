@@ -1,0 +1,136 @@
+{
+  "id": 100,
+  "type": "list",
+  "data": [
+    {
+      "id": 100,
+      "type": "list",
+      "attr": {
+        "title": "recent publications"
+      },
+      "data": [
+        {
+          "attr": {
+            "scroll": "h"
+          },
+          "data": [
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub1"
+            },
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub2"
+            },
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub3"
+            },
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "list",
+      "attr": {
+        "title": "monthly statistics",
+        "text": "Sed ut earum rerum hic tenetur a natura ipsa iudicari."
+      },
+      "data": [
+        {
+          "attr": {
+            "scroll": "h"
+          },
+          "data": [
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub1"
+            },
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub2"
+            },
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub3"
+            },
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub4"
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "type": "text",
+          "text": "28 publications since Mar 2012",
+          "action": {
+            "type": "open",
+            "name": "See all",
+            "api": "pub/list"
+          }
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "list",
+      "attr": {
+        "title": "monthly economic review",
+        "text": "Epicurus in armatum hostem impetum fecisse au perferendis doloribus asperiores repellat."
+      },
+      "data": [
+        {
+          "attr": {
+            "scroll": "h"
+          },
+          "data": [
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub1"
+            },
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub2"
+            },
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub3"
+            },
+            {
+              "id": 100,
+              "type": "img",
+              "res": "pub4"
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "type": "text",
+          "text": "24 publications since Mar 2012",
+          "action": {
+            "type": "open",
+            "name": "See all",
+            "api": "pub/list"
+          }
+        }
+      ]
+    }
+  ]
+}
