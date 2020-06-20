@@ -9,7 +9,6 @@
       "id": 100,
       "type": "banner",
       "text": "The real economy concerns the flow of goods and services (like oil, bread and labor hours), compared with the monetary sector that covers the circulation of money.",
-      "is_banner": true,
       "action": {
         "type": "dismiss",
         "name": "Got it!"
