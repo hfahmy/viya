@@ -1,0 +1,176 @@
+{
+  "id": 0,
+  "type": "list",
+  "data": [
+    {
+      "id": 100,
+      "type": "text",
+      "title": "Fish & local prices",
+      "text": "In oculis quidem faciunt, ut de homine sensibus reliqui nihil."
+    },
+    {
+      "id": 200,
+      "type": "list",
+      "data": [
+        {
+          "id": 201,
+          "type": "val",
+          "name": "fish catch",
+          "date": "2019-12-01",
+          "value": 690099,
+          "scale": "k",
+          "is_flow": true,
+          "unit": "metric tonnes",
+          "comp_intvl": "m",
+          "show_chart": false,
+          "action": {
+            "type": "open",
+            "api": "data"
+          },
+          "attr": {
+            "sctr": 0
+          }
+        },
+        {
+          "id": 202,
+          "type": "chg",
+          "name": "inflation",
+          "date": "2019-12-01",
+          "chg": 0.013034,
+          "chg_intvl": "a",
+          "scale": "o",
+          "unit": "percent",
+          "action": {
+            "type": "open",
+            "api": "data"
+          },
+          "attr": {
+            "sctr": 0
+          }
+        },
+        {
+          "id": 203,
+          "type": "comp",
+          "name": "inflation",
+          "date": "2019-12-01",
+          "comp": {
+            "Food": 0.38,
+            "Housing": 0.29,
+            "Clothing": 0.11,
+            "Utility": 0.09,
+            "Health": 0.08,
+            "Other": 0.05
+          },
+          "action": {
+            "type": "open",
+            "api": "data"
+          },
+          "attr": {
+            "sctr": 0
+          }
+        },
+        {
+          "id": 204,
+          "type": "val",
+          "name": "fish exports",
+          "date": "2019-12-01",
+          "value": 111111,
+          "scale": "k",
+          "is_flow": true,
+          "unit": "metric tonnes",
+          "show_chart": true,
+          "action": {
+            "type": "open",
+            "api": "data"
+          },
+          "attr": {
+            "sctr": 0
+          }
+        },
+        {
+          "id": 205,
+          "type": "chg",
+          "name": "inflation",
+          "date": "2019-12-01",
+          "chg": -0.012345,
+          "chg_intvl": "m",
+          "scale": "o",
+          "unit": "percent",
+          "action": {
+            "type": "open",
+            "api": "data"
+          },
+          "attr": {
+            "sctr": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "type": "text",
+      "title": "Government spending",
+      "text": "In oculis quidem faciunt, ut de homine sensibus reliqui nihil."
+    },
+    {
+      "id": 400,
+      "type": "list",
+      "data": [
+        {
+          "id": 401,
+          "type": "val",
+          "name": "total revenue & grants",
+          "date": "2019-12-01",
+          "value": 123049947,
+          "scale": "m",
+          "is_flow": true,
+          "unit": "rufiyaa",
+          "pch": 0.012039,
+          "pch_intvl": "m",
+          "show_chart": true,
+          "action": {
+            "type": "open",
+            "api": "data"
+          },
+          "attr": {
+            "sctr": 1
+          }
+        },
+        {
+          "id": 402,
+          "type": "chg",
+          "name": "current revenue",
+          "date": "2019-12-01",
+          "chg": 131011,
+          "chg_intvl": "m",
+          "scale": "k",
+          "unit": "rufiyaa",
+          "action": {
+            "type": "open",
+            "api": "data"
+          },
+          "attr": {
+            "sctr": 1
+          }
+        },
+        {
+          "id": 403,
+          "type": "chg",
+          "name": "capital revenue",
+          "date": "2019-12-01",
+          "chg": -0.013959,
+          "chg_intvl": "m",
+          "scale": "o",
+          "unit": "percent",
+          "action": {
+            "type": "open",
+            "api": "data"
+          },
+          "attr": {
+            "sctr": 1
+          }
+        }
+      ]
+    }
+  ]
+}
