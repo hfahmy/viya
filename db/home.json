@@ -19,7 +19,7 @@
           "type": "list",
           "attr": {
             "scroll": "h",
-            "title": "Most view indicators"
+            "title": "Most viewed indicators"
           },
           "data": [
             {
@@ -97,28 +97,40 @@
               "type": "text",
               "title": "Production & Growth",
               "text": "GDP at nominal, market prices, etc.",
-              "is_banner": false
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
             },
             {
               "id": 132,
               "type": "text",
               "title": "Tourism",
               "text": "Tourist arrivals, bednights,  duration of stay, etc.",
-              "is_banner": false
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
             },
             {
               "id": 133,
               "type": "text",
               "title": "Fisheries",
               "text": "Fish catch, purchases & exports.",
-              "is_banner": false
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
             },
             {
               "id": 134,
               "type": "text",
               "title": "Prices",
               "text": "Fish catch, purchases & exports.",
-              "is_banner": false
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
             }
           ]
         }
@@ -219,28 +231,40 @@
               "type": "text",
               "title": "Revenue & Expenditure",
               "text": "Revenue, expenditure, net lending, etc.",
-              "is_banner": false
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
             },
             {
               "id": 231,
               "type": "text",
               "title": "Budget & Financing",
               "text": "Fiscal balance, primary balancing, etc.",
-              "is_banner": false
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
             },
             {
               "id": 232,
               "type": "text",
               "title": "Debt",
               "text": "Outstanding debt",
-              "is_banner": false
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
             },
             {
               "id": 233,
               "type": "text",
               "title": "Borrowing",
               "text": "Borrowing activities of the government",
-              "is_banner": false
+              "action": {
+                "type": "open",
+                "api": "db/list"
+              }
             }
           ]
         }
