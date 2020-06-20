@@ -1,21 +1,21 @@
 {
-  "id": 100,
+  "id": 0,
   "type": "list",
   "data": [
     {
-      "id": 100,
+      "id": 1,
       "type": "list",
       "attr": {
         "sctr": 0
       },
       "data": [
         {
-          "id": 100,
+          "id": 11,
           "type": "text",
           "title": "Real sector"
         },
         {
-          "id": 100,
+          "id": 12,
           "type": "list",
           "attr": {
             "scroll": "h",
@@ -23,21 +23,18 @@
           },
           "data": [
             {
-              "id": 100,
+              "id": 121,
               "type": "img",
               "res": "real_sector_img"
             },
             {
-              "id": 100,
+              "id": 122,
               "type": "val",
               "name": "GDP at market price",
               "date": "2019-12-01",
-              "value": 80640121,
-              "scale": "m",
               "is_flow": true,
-              "unit": "rufiyaa",
               "pch": 0.7532,
-              "comp_intvl": "a",
+              "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
@@ -45,16 +42,13 @@
               }
             },
             {
-              "id": 100,
+              "id": 123,
               "type": "val",
               "name": "tourist arrivals",
               "date": "2019-12-01",
-              "value": 129923,
-              "scale": "k",
               "is_flow": true,
-              "unit": "tourists",
               "pch": 0.12,
-              "comp_intvl": "m",
+              "pch_intvl": "m",
               "show_chart": true,
               "action": {
                 "type": "open",
@@ -62,16 +56,13 @@
               }
             },
             {
-              "id": 100,
+              "id": 124,
               "type": "val",
               "name": "inflation",
               "date": "2019-12-01",
-              "value": 0.172,
-              "scale": "o",
               "is_flow": true,
-              "unit": "percent",
               "pch": 0.1534,
-              "comp_intvl": "m",
+              "pch_intvl": "m",
               "show_chart": true,
               "action": {
                 "type": "open",
@@ -79,16 +70,13 @@
               }
             },
             {
-              "id": 100,
+              "id": 125,
               "type": "val",
               "name": "fish catch",
               "date": "2019-12-01",
-              "value": 14823,
-              "scale": "k",
               "is_flow": true,
-              "unit": "metric tonne",
               "pch": -0.6942,
-              "comp_intvl": "m",
+              "pch_intvl": "m",
               "show_chart": true,
               "action": {
                 "type": "open",
@@ -98,35 +86,35 @@
           ]
         },
         {
-          "id": 100,
+          "id": 13,
           "type": "list",
           "attr": {
             "title": "4 categories • 98 indicators"
           },
           "data": [
             {
-              "id": 100,
+              "id": 131,
               "type": "text",
               "title": "Production & Growth",
               "text": "GDP at nominal, market prices, etc.",
               "is_banner": false
             },
             {
-              "id": 100,
+              "id": 132,
               "type": "text",
               "title": "Tourism",
               "text": "Tourist arrivals, bednights,  duration of stay, etc.",
               "is_banner": false
             },
             {
-              "id": 100,
+              "id": 133,
               "type": "text",
               "title": "Fisheries",
               "text": "Fish catch, purchases & exports.",
               "is_banner": false
             },
             {
-              "id": 100,
+              "id": 134,
               "type": "text",
               "title": "Prices",
               "text": "Fish catch, purchases & exports.",
@@ -137,19 +125,19 @@
       ]
     },
     {
-      "id": 100,
+      "id": 2,
       "type": "list",
       "attr": {
         "sctr": 1
       },
       "data": [
         {
-          "id": 100,
+          "id": 21,
           "type": "text",
           "title": "Fiscal sector"
         },
         {
-          "id": 100,
+          "id": 22,
           "type": "list",
           "attr": {
             "scroll": "h",
@@ -157,21 +145,18 @@
           },
           "data": [
             {
-              "id": 100,
+              "id": 221,
               "type": "img",
               "res": "fiscal_sector_img"
             },
             {
-              "id": 100,
+              "id": 222,
               "type": "val",
               "name": "total revenue and grants",
               "date": "2019-12-01",
-              "value": 29902827492,
-              "scale": "b",
               "is_flow": true,
-              "unit": "rufiyaa",
               "pch": 0.24443,
-              "comp_intvl": "a",
+              "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
@@ -179,16 +164,13 @@
               }
             },
             {
-              "id": 100,
+              "id": 223,
               "type": "val",
               "name": "total expenditure",
               "date": "2019-12-01",
-              "value": 35948659237,
-              "scale": "b",
               "is_flow": true,
-              "unit": "rufiyaa",
               "pch": 0.23949,
-              "comp_intvl": "a",
+              "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
@@ -196,16 +178,13 @@
               }
             },
             {
-              "id": 100,
+              "id": 224,
               "type": "val",
               "name": "overall fiscal balance",
               "date": "2019-12-01",
-              "value": -6048987456,
-              "scale": "b",
               "is_flow": true,
-              "unit": "rufiyaa",
               "pch": -0.21093,
-              "comp_intvl": "a",
+              "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
@@ -213,16 +192,13 @@
               }
             },
             {
-              "id": 100,
+              "id": 225,
               "type": "val",
               "name": "total government debt outstanding",
               "date": "2019-12-01",
-              "value": 57173567234,
-              "scale": "b",
               "is_flow": true,
-              "unit": "rufiyaa",
               "pch": 0.8939,
-              "comp_intvl": "a",
+              "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
@@ -232,7 +208,7 @@
           ]
         },
         {
-          "id": 100,
+          "id": 23,
           "type": "list",
           "attr": {
             "title": "4 categories • 56 indicators"
@@ -246,21 +222,21 @@
               "is_banner": false
             },
             {
-              "id": 100,
+              "id": 231,
               "type": "text",
               "title": "Budget & Financing",
               "text": "Fiscal balance, primary balancing, etc.",
               "is_banner": false
             },
             {
-              "id": 100,
+              "id": 232,
               "type": "text",
               "title": "Debt",
               "text": "Outstanding debt",
               "is_banner": false
             },
             {
-              "id": 100,
+              "id": 233,
               "type": "text",
               "title": "Borrowing",
               "text": "Borrowing activities of the government",
