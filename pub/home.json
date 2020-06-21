@@ -6,10 +6,12 @@
       "id": 100,
       "type": "list",
       "attr": {
-        "title": "recent publications"
+        "title": "Recent publications"
       },
       "data": [
         {
+          "id": 100,
+          "type": "list",
           "attr": {
             "scroll": "h"
           },
@@ -17,7 +19,7 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub1",
+              "res": "publication_cover",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -26,7 +28,7 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub2",
+              "res": "publication_cover",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -35,7 +37,7 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub3",
+              "res": "publication_cover",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -44,7 +46,7 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub4",
+              "res": "publication_cover",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -58,11 +60,13 @@
       "id": 100,
       "type": "list",
       "attr": {
-        "title": "monthly statistics",
+        "title": "Monthly Economic Review",
         "text": "Sed ut earum rerum hic tenetur a natura ipsa iudicari."
       },
       "data": [
         {
+          "id": 100,
+          "type": "list",
           "attr": {
             "scroll": "h"
           },
@@ -70,7 +74,8 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub1",
+              "res": "publication_cover",
+              "text": "Nov 2019",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -79,7 +84,8 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub2",
+              "res": "publication_cover",
+              "text": "Oct 2019",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -88,7 +94,8 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub3",
+              "res": "publication_cover",
+              "text": "Sep 2019",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -97,7 +104,8 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub4",
+              "res": "publication_cover",
+              "text": "Aug 2019",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -111,8 +119,11 @@
           "text": "28 publications since Mar 2012",
           "action": {
             "type": "open",
-            "name": "See all",
-            "api": "pub/list"
+            "api": "pub/list",
+            "args": {
+              "id": "999"
+            },
+            "name": "See all"
           }
         }
       ]
@@ -121,11 +132,13 @@
       "id": 100,
       "type": "list",
       "attr": {
-        "title": "monthly economic review",
-        "text": "Epicurus in armatum hostem impetum fecisse au perferendis doloribus asperiores repellat."
+        "title": "Monthly Statistics",
+        "text": "Sed ut earum rerum hic tenetur a natura ipsa iudicari."
       },
       "data": [
         {
+          "id": 100,
+          "type": "list",
           "attr": {
             "scroll": "h"
           },
@@ -133,7 +146,8 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub1",
+              "res": "publication_cover",
+              "text": "Nov 2019",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -142,7 +156,8 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub2",
+              "res": "publication_cover",
+              "text": "Oct 2019",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -151,7 +166,8 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub3",
+              "res": "publication_cover",
+              "text": "Sep 2019",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -160,7 +176,8 @@
             {
               "id": 100,
               "type": "img",
-              "res": "pub4",
+              "res": "publication_cover",
+              "text": "Aug 2019",
               "action": {
                 "type": "open",
                 "api": "pub/details"
@@ -171,11 +188,14 @@
         {
           "id": 100,
           "type": "text",
-          "text": "24 publications since Mar 2012",
+          "text": "21 publications since Mar 2012",
           "action": {
             "type": "open",
-            "name": "See all",
-            "api": "pub/list"
+            "api": "pub/list",
+            "args": {
+              "id": "999"
+            },
+            "name": "See all"
           }
         }
       ]
