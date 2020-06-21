@@ -6,7 +6,9 @@
       "id": 100,
       "type": "list",
       "attr": {
-        "title": "2020-04-13"
+        "title": "13",
+        "text": "Tue",
+        "date": "2020-04-13"
       },
       "data": [
         {
@@ -14,6 +16,9 @@
           "type": "text",
           "title": "MMA's Statement of Financial Position",
           "is_banner": false,
+          "attr": {
+            "color": "#EF9A9A"
+          },
           "action": {
             "type": "open",
             "api": "cal/detail"
@@ -25,7 +30,9 @@
       "id": 100,
       "type": "list",
       "attr": {
-        "title": "2020-04-21"
+        "title": "21",
+        "text": "Thu",
+        "date": "2020-04-21"
       },
       "data": [
         {
@@ -33,6 +40,9 @@
           "type": "text",
           "title": "Gross International Reserve",
           "is_banner": false,
+          "attr": {
+            "color": "#90CAF9"
+          },
           "action": {
             "type": "open",
             "api": "cal/detail"
@@ -44,7 +54,9 @@
       "id": 100,
       "type": "list",
       "attr": {
-        "title": "2020-04-23"
+        "title": "23",
+        "text": "Mon",
+        "date": "2020-04-23"
       },
       "data": [
         {
@@ -52,6 +64,9 @@
           "type": "text",
           "title": "Gross International Reserve",
           "is_banner": false,
+          "attr": {
+            "color": "#90CAF9"
+          },
           "action": {
             "type": "open",
             "api": "cal/detail"
@@ -62,6 +77,9 @@
           "type": "text",
           "title": "MMA's Statement of Financial Position",
           "is_banner": false,
+          "attr": {
+            "color": "#EF9A9A"
+          },
           "action": {
             "type": "open",
             "api": "cal/detail"
@@ -72,6 +90,9 @@
           "type": "text",
           "title": "Monthly Statistics",
           "is_banner": false,
+          "attr": {
+            "color": "#CE93D8"
+          },
           "action": {
             "type": "open",
             "api": "cal/detail"
@@ -83,7 +104,9 @@
       "id": 100,
       "type": "list",
       "attr": {
-        "title": "2020-04-26"
+        "title": "26",
+        "text": "Sat",
+        "date": "2020-04-26"
       },
       "data": [
         {
@@ -91,6 +114,9 @@
           "type": "text",
           "title": "Economic update",
           "is_banner": false,
+          "attr": {
+            "color": "#A5D6A7"
+          },
           "action": {
             "type": "open",
             "api": "cal/detail"
@@ -101,6 +127,9 @@
           "type": "text",
           "title": "MMA's Statement of Financial Position",
           "is_banner": false,
+          "attr": {
+            "color": "#EF9A9A"
+          },
           "action": {
             "type": "open",
             "api": "cal/detail"
@@ -111,6 +140,9 @@
           "type": "text",
           "title": "Monthly Statistics",
           "is_banner": false,
+          "attr": {
+            "color": "#CE93D8"
+          },
           "action": {
             "type": "open",
             "api": "cal/detail"
