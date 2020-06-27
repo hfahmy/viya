@@ -1,19 +1,17 @@
 {
-  "id": -1,
+  "id": 0,
   "type": "list",
   "data": [
     {
-      "id": -1,
-      "type": "text",
-      "title": "Fish & local prices",
-      "text": "In oculis quidem faciunt, ut de homine sensibus reliqui nihil.",
-      "attr": {
-        "sctr": 0
-      }
-    },
-    {
-      "id": -1,
+      "id": 200,
       "type": "list",
+      "action": {
+        "type": "edit"
+      },
+      "attr": {
+        "text": "In oculis quidem faciunt, ut de homine sensibus reliqui nihil.",
+        "title": "Fish & local prices"
+      },
       "data": [
         {
           "id": 201,
@@ -109,17 +107,15 @@
       ]
     },
     {
-      "id": -1,
-      "type": "text",
-      "title": "Government spending",
-      "text": "In oculis quidem faciunt, ut de homine sensibus reliqui nihil.",
-      "attr": {
-        "sctr": 1
-      }
-    },
-    {
-      "id": -1,
+      "id": 400,
       "type": "list",
+      "action": {
+        "type": "edit"
+      },
+      "attr": {
+        "text": "In oculis quidem faciunt, ut de homine sensibus reliqui nihil.",
+        "title": "Fish & local prices"
+      },
       "data": [
         {
           "id": 401,
