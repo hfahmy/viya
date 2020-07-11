@@ -1,12 +1,12 @@
 {
-  "id": 100,
+  "id": 0,
   "type": "list",
   "attr": {
 
   },
   "data": [
     {
-      "id": 100,
+      "id": 1,
       "type": "banner",
       "text": "The real economy concerns the flow of goods and services (like oil, bread and labor hours), compared with the monetary sector that covers the circulation of money.",
       "action": {
@@ -15,33 +15,33 @@
       }
     },
     {
-      "id": 100,
+      "id": 2,
       "type": "list",
       "data": [
         {
-          "id": 1,
+          "id": 3,
           "type": "text",
           "title": "Tourism"
         },
         {
-          "id": 2,
+          "id": 4,
           "type": "img",
           "res": "tourism_banner"
         },
         {
-          "id": 3,
+          "id": 5,
           "type": "text",
           "text": "The tourism sector continues it’s resilient growth with start of two new airlines from China and Australia."
         },
         {
-          "id": 100,
+          "id": 6,
           "type": "list",
           "attr": {
             "is_grid": "true"
           },
           "data": [
             {
-              "id": 100,
+              "id": 1100,
               "type": "val",
               "name": "tourist arrivals",
               "date": "2019-12-01",
@@ -61,7 +61,7 @@
               }
             },
             {
-              "id": 100,
+              "id": 1200,
               "type": "comp",
               "name": "tourist arrivals",
               "date": "2019-12-01",
@@ -79,7 +79,7 @@
               }
             },
             {
-              "id": 100,
+              "id": 7,
               "type": "chg",
               "name": "tourist arrivals",
               "date": "2019-12-01",
@@ -97,26 +97,26 @@
       ]
     },
     {
-      "id": 100,
+      "id": 8,
       "type": "list",
       "data": [
         {
-          "id": 1,
+          "id": 9,
           "type": "text",
           "title": "Inflation"
         },
         {
-          "id": 2,
+          "id": 10,
           "type": "img",
           "res": "inflation_banner"
         },
         {
-          "id": 3,
+          "id": 11,
           "type": "text",
           "text": "Quid ex ea voluptate et caritatem, quae dices, libenter assentiar probabo, inquit, modo ista sis aequitate, quam interrogare aut voluptates omittantur maiorum dolorum effugiendorum gratia  ex eo delectu rerum, quem modo dixi, constituto, ut labore et accurate disserendum et dolore disputandum putant sed ut."
         },
         {
-          "id": 999,
+          "id": 12,
           "type": "list",
           "attr": {
             "is_grid": "true",
@@ -124,13 +124,14 @@
           },
           "data": [
             {
-              "id": 100,
+              "id": 2100,
               "type": "val",
               "name": "inflation",
               "date": "2019-12-01",
               "value": 0.124,
               "scale": "o",
               "is_flow": false,
+              "show_chart": true,
               "unit": "percent",
               "action": {
                 "type": "open",
@@ -138,7 +139,7 @@
               }
             },
             {
-              "id": 100,
+              "id": 13,
               "type": "chg",
               "name": "inflation",
               "date": "2019-12-01",
@@ -152,7 +153,7 @@
               }
             },
             {
-              "id": 100,
+              "id": 14,
               "type": "chg",
               "name": "inflation",
               "date": "2019-12-01",
@@ -166,7 +167,7 @@
               }
             },
             {
-              "id": 100,
+              "id": 2200,
               "type": "comp",
               "name": "inflation",
               "date": "2019-12-01",

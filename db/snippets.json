@@ -3,7 +3,7 @@
   "type": "list",
   "data": [
     {
-      "id": 200,
+      "id": 1,
       "type": "list",
       "action": {
         "type": "edit"
@@ -14,7 +14,7 @@
       },
       "data": [
         {
-          "id": 201,
+          "id": 100,
           "type": "val",
           "name": "fish catch",
           "date": "2019-12-01",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "id": 202,
+          "id": 2,
           "type": "chg",
           "name": "inflation",
           "date": "2019-12-01",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "id": 203,
+          "id": 200,
           "type": "comp",
           "name": "inflation",
           "date": "2019-12-01",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "id": 204,
+          "id": 100,
           "type": "val",
           "name": "fish exports",
           "date": "2019-12-01",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "id": 205,
+          "id": 5,
           "type": "chg",
           "name": "inflation",
           "date": "2019-12-01",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "id": 400,
+      "id": 2,
       "type": "list",
       "action": {
         "type": "edit"
@@ -118,7 +118,7 @@
       },
       "data": [
         {
-          "id": 401,
+          "id": 100,
           "type": "val",
           "name": "total revenue & grants",
           "date": "2019-12-01",
@@ -138,7 +138,7 @@
           }
         },
         {
-          "id": 402,
+          "id": 2,
           "type": "chg",
           "name": "current revenue",
           "date": "2019-12-01",
@@ -155,7 +155,7 @@
           }
         },
         {
-          "id": 403,
+          "id": 3,
           "type": "chg",
           "name": "capital revenue",
           "date": "2019-12-01",
