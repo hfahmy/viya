@@ -10,7 +10,7 @@
       },
       "data": [
         {
-          "id": 100,
+          "id": 0,
           "type": "text",
           "title": "real sector"
         },
@@ -19,39 +19,43 @@
           "type": "list",
           "data": [
             {
-              "id": 101,
+              "id": 1,
               "type": "text",
               "title": "growth & production",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "id": 901
               }
             },
             {
-              "id": 102,
+              "id": 1,
               "type": "text",
               "title": "tourism",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "id": 902
               }
             },
             {
-              "id": 102,
+              "id": 1,
               "type": "text",
               "title": "fisheries",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "id": 903
               }
             },
             {
-              "id": 102,
+              "id": 1,
               "type": "text",
               "title": "prices",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "id": 904
               }
             }
           ]
@@ -59,14 +63,14 @@
       ]
     },
     {
-      "id": 100,
+      "id": 0,
       "type": "list",
       "attr": {
-        "sctr": 0
+        "sctr": 1
       },
       "data": [
         {
-          "id": 100,
+          "id": 0,
           "type": "text",
           "title": "fiscal sector"
         },
@@ -75,39 +79,43 @@
           "type": "list",
           "data": [
             {
-              "id": 101,
+              "id": 1,
               "type": "text",
               "title": "revenue & expenditure",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "id": 901
               }
             },
             {
-              "id": 102,
+              "id": 1,
               "type": "text",
               "title": "budget & finance",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "id": 902
               }
             },
             {
-              "id": 102,
+              "id": 1,
               "type": "text",
               "title": "debt",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "id": 903
               }
             },
             {
-              "id": 102,
+              "id": 1,
               "type": "text",
               "title": "borrowing",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "id": 904
               }
             }
           ]

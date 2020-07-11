@@ -10,8 +10,8 @@
     "unit": "tourists",
     "freq": "m",
     "is_flow": true,
-    "ts_date": "2018-12-01",
-    "ts": [
+    "ts_start": "2018-12-01",
+    "ts_data": [
       150818,
       151552,
       168583,
