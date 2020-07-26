@@ -1,0 +1,189 @@
+{
+  "id": null,
+  "type": "list",
+  "data": [
+    {
+      "id": 1,
+      "type": "list",
+      "action": {
+        "type": "edit"
+      },
+      "attr": {
+        "text": "This is a sample watchlist. You guys need to create a template for each of the watchlists.",
+        "title": "Sample watchlist"
+      },
+      "data": [
+        {
+          "id": 2039,
+          "type": "val",
+          "name": "Exports",
+          "date": "2020-05-01",
+          "value": "11469976.5592063",
+          "scale": null,
+          "is_flow": false,
+          "unit": "US dollar",
+          "show_chart": true,
+          "action": {
+            "type": "open",
+            "api": "db/series",
+            "args": {
+              "id": 2039
+            }
+          },
+          "attr": {
+            "sctr": 3
+          }
+        },
+        {
+          "id": 2039,
+          "type": "chg",
+          "name": "Exports",
+          "date": "2020-05-01",
+          "chg": "-4155230.4313919",
+          "chg_intvl": "m",
+          "scale": null,
+          "unit": "US dollar",
+          "action": {
+            "type": "open",
+            "api": "db/series",
+            "args": {
+              "id": 2039
+            }
+          },
+          "attr": {
+            "sctr": 3
+          }
+        },
+        {
+          "id": 2039,
+          "type": "comp",
+          "name": "Exports",
+          "date": "2020-05-01",
+          "comp": [
+            {
+              "name": "Domestic exports",
+              "value": "8215292.66428107"
+            },
+            {
+              "name": "Re-exports",
+              "value": "3254683.89492524"
+            },
+            {
+              "name": "Private sector",
+              "value": "4048731.47430059"
+            },
+            {
+              "name": "Public sector",
+              "value": "4166561.18998048"
+            },
+            {
+              "name": "Other",
+              "value": "0"
+            },
+            {
+              "name": "Other",
+              "value": "8215292.6642811"
+            }
+          ],
+          "action": {
+            "type": "open",
+            "api": "db/series",
+            "args": {
+              "id": 2039
+            }
+          },
+          "attr": {
+            "sctr": 3
+          }
+        },
+        {
+          "id": 2035,
+          "type": "val",
+          "name": "Imports",
+          "date": "2020-05-01",
+          "value": "99658599.1281718",
+          "scale": null,
+          "is_flow": false,
+          "unit": "US dollar",
+          "show_chart": true,
+          "action": {
+            "type": "open",
+            "api": "db/series",
+            "args": {
+              "id": 2035
+            }
+          },
+          "attr": {
+            "sctr": 3
+          }
+        },
+        {
+          "id": 2035,
+          "type": "chg",
+          "name": "Imports",
+          "date": "2020-05-01",
+          "chg": "-16602333.483011",
+          "chg_intvl": "m",
+          "scale": null,
+          "unit": "US dollar",
+          "action": {
+            "type": "open",
+            "api": "db/series",
+            "args": {
+              "id": 2035
+            }
+          },
+          "attr": {
+            "sctr": 3
+          }
+        },
+        {
+          "id": 2035,
+          "type": "comp",
+          "name": "Imports",
+          "date": "2020-05-01",
+          "comp": [
+            {
+              "name": "Food items",
+              "value": "25105772.8731295"
+            },
+            {
+              "name": "Furniture, fixtures and fittings",
+              "value": "4172278.10344828"
+            },
+            {
+              "name": "Electronic and electrical appliances",
+              "value": "3357068.25374105"
+            },
+            {
+              "name": "Petroleum products",
+              "value": "7275435.65972674"
+            },
+            {
+              "name": "Other",
+              "value": "59748044.238126"
+            },
+            {
+              "name": "Other",
+              "value": "159406643.3663"
+            },
+            {
+              "name": "Other",
+              "value": "259065242.49447"
+            }
+          ],
+          "action": {
+            "type": "open",
+            "api": "db/series",
+            "args": {
+              "id": 2035
+            }
+          },
+          "attr": {
+            "sctr": 3
+          }
+        }
+      ]
+    }
+  ]
+}

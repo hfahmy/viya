@@ -10,12 +10,12 @@
       },
       "data": [
         {
-          "id": 11,
+          "id": 626,
           "type": "text",
-          "title": "Real sector"
+          "title": "Real Sector"
         },
         {
-          "id": 12,
+          "id": 2,
           "type": "list",
           "attr": {
             "scroll": "h",
@@ -23,113 +23,162 @@
           },
           "data": [
             {
-              "id": 121,
+              "id": 3,
               "type": "img",
-              "res": "real_sector_img"
+              "res": "real_sector_image"
             },
             {
-              "id": 122,
+              "id": 1103,
               "type": "val",
-              "name": "GDP at market price",
-              "date": "2019-12-01",
-              "is_flow": true,
-              "pch": 0.7532,
+              "name": "Tourist arrivals ",
+              "date": "2020-05-01",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1103
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            },
+            {
+              "id": 1190,
+              "type": "val",
+              "name": "Inflation - National",
+              "date": "2020-05-01",
+              "pch": "+0.1",
+              "pch_intvl": "m",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1190
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            },
+            {
+              "id": 1086,
+              "type": "val",
+              "name": "Real GDP (at market prices)",
+              "date": "2020-12-01",
+              "pch": "-0.2",
               "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
-                "api": "data"
+                "api": "db/series",
+                "args": {
+                  "id": 1086
+                }
+              },
+              "attr": {
+                "sctr": 0
               }
             },
             {
-              "id": 123,
+              "id": 1172,
               "type": "val",
-              "name": "tourist arrivals",
-              "date": "2019-12-01",
-              "is_flow": true,
-              "pch": 0.12,
-              "pch_intvl": "m",
+              "name": "Nominal GDP per capita",
+              "date": "2020-12-01",
+              "pch": "-0.2",
+              "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
-                "api": "data"
+                "api": "db/series",
+                "args": {
+                  "id": 1172
+                }
+              },
+              "attr": {
+                "sctr": 0
               }
             },
             {
-              "id": 124,
+              "id": 1088,
               "type": "val",
-              "name": "inflation",
-              "date": "2019-12-01",
-              "is_flow": true,
-              "pch": 0.1534,
-              "pch_intvl": "m",
+              "name": "Real GDP (at basic prices)",
+              "date": "2018-12-01",
+              "pch": "+0.1",
+              "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
-                "api": "data"
-              }
-            },
-            {
-              "id": 125,
-              "type": "val",
-              "name": "fish catch",
-              "date": "2019-12-01",
-              "is_flow": true,
-              "pch": -0.6942,
-              "pch_intvl": "m",
-              "show_chart": true,
-              "action": {
-                "type": "open",
-                "api": "data"
+                "api": "db/series",
+                "args": {
+                  "id": 1088
+                }
+              },
+              "attr": {
+                "sctr": 0
               }
             }
           ]
         },
         {
-          "id": 13,
+          "id": 4,
           "type": "list",
           "attr": {
-            "title": "4 categories • 98 indicators"
+            "title": "4 categories • 158 indicators"
           },
           "data": [
             {
-              "id": 131,
+              "id": 1002,
               "type": "text",
-              "title": "Production & Growth",
-              "text": "GDP at nominal, market prices, etc.",
+              "title": "National Accounts",
+              "text": "GDP and other indicators to measure output of the entire economy",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "args": {
+                  "id": 1002
+                }
               }
             },
             {
-              "id": 132,
+              "id": 1018,
               "type": "text",
               "title": "Tourism",
-              "text": "Tourist arrivals, bednights,  duration of stay, etc.",
+              "text": "Tourist arrivals, average stay, occupancy rate, etc.",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "args": {
+                  "id": 1018
+                }
               }
             },
             {
-              "id": 133,
+              "id": 1039,
               "type": "text",
               "title": "Fisheries",
-              "text": "Fish catch, purchases & exports.",
+              "text": "Volume of fish catch, fish exports, etc.",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "args": {
+                  "id": 1039
+                }
               }
             },
             {
-              "id": 134,
+              "id": 1054,
               "type": "text",
               "title": "Prices",
-              "text": "Fish catch, purchases & exports.",
+              "text": "Economic indicators related to the general prices levels of the economy",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "args": {
+                  "id": 1054
+                }
               }
             }
           ]
@@ -137,133 +186,788 @@
       ]
     },
     {
-      "id": 2,
+      "id": 5,
       "type": "list",
       "attr": {
         "sctr": 1
       },
       "data": [
         {
-          "id": 21,
+          "id": 709,
           "type": "text",
-          "title": "Fiscal sector"
+          "title": "Fiscal Sector"
         },
         {
-          "id": 22,
+          "id": 6,
           "type": "list",
           "attr": {
             "scroll": "h",
-            "title": "Most view indicators"
+            "title": "Most viewed indicators"
           },
           "data": [
             {
-              "id": 221,
+              "id": 7,
               "type": "img",
-              "res": "fiscal_sector_img"
+              "res": "fisc_sector_image"
             },
             {
-              "id": 222,
+              "id": 60,
               "type": "val",
-              "name": "total revenue and grants",
-              "date": "2019-12-01",
-              "is_flow": true,
-              "pch": 0.24443,
-              "pch_intvl": "a",
+              "name": "Treasury bonds",
+              "date": "2020-05-01",
+              "pch": "0",
+              "pch_intvl": "m",
               "show_chart": true,
               "action": {
                 "type": "open",
-                "api": "data"
+                "api": "db/series",
+                "args": {
+                  "id": 60
+                }
+              },
+              "attr": {
+                "sctr": 1
               }
             },
             {
-              "id": 223,
+              "id": 54,
               "type": "val",
-              "name": "total expenditure",
-              "date": "2019-12-01",
-              "is_flow": true,
-              "pch": 0.23949,
-              "pch_intvl": "a",
+              "name": "Treasury bills and Islamic instruments ",
+              "date": "2020-05-01",
+              "pch": "0",
+              "pch_intvl": "m",
               "show_chart": true,
               "action": {
                 "type": "open",
-                "api": "data"
+                "api": "db/series",
+                "args": {
+                  "id": 54
+                }
+              },
+              "attr": {
+                "sctr": 1
               }
             },
             {
-              "id": 224,
+              "id": 13,
               "type": "val",
-              "name": "overall fiscal balance",
-              "date": "2019-12-01",
-              "is_flow": true,
-              "pch": -0.21093,
+              "name": "Financing",
+              "date": "2020-12-01",
+              "pch": "+0.2",
               "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
-                "api": "data"
+                "api": "db/series",
+                "args": {
+                  "id": 13
+                }
+              },
+              "attr": {
+                "sctr": 1
               }
             },
             {
-              "id": 225,
+              "id": 1,
               "type": "val",
-              "name": "total government debt outstanding",
-              "date": "2019-12-01",
-              "is_flow": true,
-              "pch": 0.8939,
+              "name": "Total revenue and grants",
+              "date": "2020-12-01",
+              "pch": "+0.2",
               "pch_intvl": "a",
               "show_chart": true,
               "action": {
                 "type": "open",
-                "api": "data"
+                "api": "db/series",
+                "args": {
+                  "id": 1
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 53,
+              "type": "val",
+              "name": "Claims on central government",
+              "date": "2020-05-01",
+              "pch": "0",
+              "pch_intvl": "m",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 53
+                }
+              },
+              "attr": {
+                "sctr": 1
               }
             }
           ]
         },
         {
-          "id": 23,
+          "id": 8,
           "type": "list",
           "attr": {
-            "title": "4 categories • 56 indicators"
+            "title": "5 categories • 76 indicators"
           },
           "data": [
             {
-              "id": 100,
+              "id": 2,
               "type": "text",
-              "title": "Revenue & Expenditure",
-              "text": "Revenue, expenditure, net lending, etc.",
+              "title": "Central Government Revenue and Expenditure",
+              "text": "Total government revenue and expenditure and breakdown thereof",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "args": {
+                  "id": 2
+                }
               }
             },
             {
-              "id": 231,
+              "id": 8,
               "type": "text",
-              "title": "Budget & Financing",
-              "text": "Fiscal balance, primary balancing, etc.",
+              "title": "Budget Position and Financing",
+              "text": "Budget position and the financing details",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "args": {
+                  "id": 8
+                }
               }
             },
             {
-              "id": 232,
+              "id": 43,
               "type": "text",
-              "title": "Debt",
-              "text": "Outstanding debt",
+              "title": "Borrowings of the central government by ownership",
+              "text": "Breakdown of government borrowing by lender",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "args": {
+                  "id": 43
+                }
               }
             },
             {
-              "id": 233,
+              "id": 59,
               "type": "text",
-              "title": "Borrowing",
-              "text": "Borrowing activities of the government",
+              "title": "Summary of treasury bills and Islamic instruments",
+              "text": "Breakdown of borrowing via treasury bill and Islamic instruments",
               "action": {
                 "type": "open",
-                "api": "db/list"
+                "api": "db/list",
+                "args": {
+                  "id": 59
+                }
+              }
+            },
+            {
+              "id": 78,
+              "type": "text",
+              "title": "Public Debt",
+              "text": "Indicators related to total public debt",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 78
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "list",
+      "attr": {
+        "sctr": 2
+      },
+      "data": [
+        {
+          "id": 1251,
+          "type": "text",
+          "title": "Financial Sector"
+        },
+        {
+          "id": 10,
+          "type": "list",
+          "attr": {
+            "scroll": "h",
+            "title": "Most viewed indicators"
+          },
+          "data": [
+            {
+              "id": 11,
+              "type": "img",
+              "res": "mone_sector_image"
+            },
+            {
+              "id": 3325,
+              "type": "val",
+              "name": "Broad money",
+              "date": "2020-05-01",
+              "pch": "0",
+              "pch_intvl": "m",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3325
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            },
+            {
+              "id": 3437,
+              "type": "val",
+              "name": "Interest rate of 28 day T-bills (MVR)",
+              "date": "2020-05-01",
+              "pch": "0",
+              "pch_intvl": "m",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3437
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            },
+            {
+              "id": 3374,
+              "type": "val",
+              "name": "Overnight deposit facility",
+              "date": "2020-05-01",
+              "pch": "+0.5",
+              "pch_intvl": "m",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3374
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            },
+            {
+              "id": 3328,
+              "type": "val",
+              "name": "Dollarization ratio ",
+              "date": "2020-05-01",
+              "pch": "0",
+              "pch_intvl": "m",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3328
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            },
+            {
+              "id": 3501,
+              "type": "val",
+              "name": "Insurance density (USD)",
+              "date": "2019-12-01",
+              "pch": "0",
+              "pch_intvl": "a",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3501
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "type": "list",
+          "attr": {
+            "title": "15 categories • 243 indicators"
+          },
+          "data": [
+            {
+              "id": 3001,
+              "type": "text",
+              "title": "Central Bank Survey",
+              "text": "Monetary and financial statistics of Maldives Monetary Authority",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3001
+                }
+              }
+            },
+            {
+              "id": 3015,
+              "type": "text",
+              "title": "Other Depository Corporation Survey",
+              "text": "Monetary and financial statistics of commercial banks in Maldives",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3015
+                }
+              }
+            },
+            {
+              "id": 3030,
+              "type": "text",
+              "title": "Depository Corporations Survey",
+              "text": "Monetary and financial statistics of Maldives Monetary Authority and commercial banks in Maldives",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3030
+                }
+              }
+            },
+            {
+              "id": 3044,
+              "type": "text",
+              "title": "Other Financial Corporations Survey",
+              "text": "Monetary and financial statistics of insurance corporations, pension funds and finance leasing companies in Maldives",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3044
+                }
+              }
+            },
+            {
+              "id": 3059,
+              "type": "text",
+              "title": "Financial Corporations Survey",
+              "text": "Monetary and financial statistics of central bank, other depository corporations and other financial corporations in Maldives as a whole",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3059
+                }
+              }
+            },
+            {
+              "id": 3073,
+              "type": "text",
+              "title": "Assets and Liabilities of Maldives Monetary Authority",
+              "text": "This includes assets and liabilities of Maldives Monetary Auhtority",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3073
+                }
+              }
+            },
+            {
+              "id": 3094,
+              "type": "text",
+              "title": "Assets and Liabilities of Other Depository Corporations",
+              "text": "This includes assets and liabilities of commercial banks in Maldives",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3094
+                }
+              }
+            },
+            {
+              "id": 3116,
+              "type": "text",
+              "title": "Assets and Liabilities of Other Financial Corporations",
+              "text": "This includes assets and liabilities of insurance corporations, pension funds and finance leasing companies in Maldives",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3116
+                }
+              }
+            },
+            {
+              "id": 3137,
+              "type": "text",
+              "title": "Private Sector Loans and Advances by Other Depository Corporations",
+              "text": "Represents the credit provided to the private sector by commercial banks in Maldives",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3137
+                }
+              }
+            },
+            {
+              "id": 3156,
+              "type": "text",
+              "title": "Interest Rates",
+              "text": "Interest rates charge for different financial assets and liabilities issued by central bank (MMA) and commercial banks",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3156
+                }
+              }
+            },
+            {
+              "id": 3195,
+              "type": "text",
+              "title": "Financial Access Survey",
+              "text": "",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3195
+                }
+              }
+            },
+            {
+              "id": 3180,
+              "type": "text",
+              "title": "Financial Soundness Indicators",
+              "text": "Financial Soundness indicators are calculated in accordance with IMF's FSI Compilation Guide (2006)",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3180
+                }
+              }
+            },
+            {
+              "id": 3213,
+              "type": "text",
+              "title": "Key Indicators of General Insurance Business",
+              "text": "",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3213
+                }
+              }
+            },
+            {
+              "id": 3229,
+              "type": "text",
+              "title": "Insurance Premium and Claims by Class",
+              "text": "",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3229
+                }
+              }
+            },
+            {
+              "id": 3252,
+              "type": "text",
+              "title": "Assets and Liabilities of Insurance Corporations",
+              "text": "",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 3252
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "list",
+      "attr": {
+        "sctr": 3
+      },
+      "data": [
+        {
+          "id": 1114,
+          "type": "text",
+          "title": "External sector"
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "scroll": "h",
+            "title": "Most viewed indicators"
+          },
+          "data": [
+            {
+              "id": 15,
+              "type": "img",
+              "res": "exts_sector_image"
+            },
+            {
+              "id": 2157,
+              "type": "val",
+              "name": "Exchange rate MVR/USD (average)",
+              "date": "2020-05-01",
+              "pch": "0",
+              "pch_intvl": "m",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2157
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2035,
+              "type": "val",
+              "name": "Imports",
+              "date": "2020-05-01",
+              "pch": "-0.1",
+              "pch_intvl": "m",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2035
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2017,
+              "type": "val",
+              "name": "Export of services",
+              "date": "2020-12-01",
+              "pch": "+0.1",
+              "pch_intvl": "a",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2017
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2012,
+              "type": "val",
+              "name": "Current account balance",
+              "date": "2020-12-01",
+              "pch": "-0.2",
+              "pch_intvl": "a",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2012
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2016,
+              "type": "val",
+              "name": "Balance on services",
+              "date": "2020-12-01",
+              "pch": "+0.1",
+              "pch_intvl": "a",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2016
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "type": "list",
+          "attr": {
+            "title": "10 categories • 156 indicators"
+          },
+          "data": [
+            {
+              "id": 2001,
+              "type": "text",
+              "title": "Gross International Reserves",
+              "text": "Gross and usable internation reserves and breakdown thereof",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2001
+                }
+              }
+            },
+            {
+              "id": 2013,
+              "type": "text",
+              "title": "Balance of Payments",
+              "text": "Economic transactions with the rest of the world",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2013
+                }
+              }
+            },
+            {
+              "id": 2031,
+              "type": "text",
+              "title": "Balance of Payments - Indicators ",
+              "text": "Indicators related to our transactions with the rest of the world",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2031
+                }
+              }
+            },
+            {
+              "id": 2038,
+              "type": "text",
+              "title": "Composition of Exports and Imports",
+              "text": "Breakdown of imports and exports by type of goods",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2038
+                }
+              }
+            },
+            {
+              "id": 2068,
+              "type": "text",
+              "title": "Trade by Sector",
+              "text": "Breakdown of imports and exports by type the local economic sectors",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2068
+                }
+              }
+            },
+            {
+              "id": 2077,
+              "type": "text",
+              "title": "Direction of Trade",
+              "text": "Breakdown of imports and exports by trading countries",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2077
+                }
+              }
+            },
+            {
+              "id": 2102,
+              "type": "text",
+              "title": "External Debt and Debt Service",
+              "text": "",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2102
+                }
+              }
+            },
+            {
+              "id": 2119,
+              "type": "text",
+              "title": "External Debt and Debt Service - Indicators",
+              "text": "",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2119
+                }
+              }
+            },
+            {
+              "id": 2127,
+              "type": "text",
+              "title": "Exchange Rates",
+              "text": "",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2127
+                }
+              }
+            },
+            {
+              "id": 2170,
+              "type": "text",
+              "title": "Trade Indicators",
+              "text": "",
+              "action": {
+                "type": "open",
+                "api": "db/list",
+                "args": {
+                  "id": 2170
+                }
               }
             }
           ]
