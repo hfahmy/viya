@@ -1,95 +1,82 @@
 {
-  "id": 100,
+  "id": 1,
   "type": "list",
   "data": [
     {
-      "id": 100,
+      "id": 2,
       "type": "text",
       "title": "Shopaholic",
-      "text": "For those of you who are interested in knowing if prices are creeping up or skyrocketing, this list is a must have list.",
+      "text": "A collection of indicators to help you guage the general direction of prices.",
       "action": {
         "type": "open",
         "api": "snippets",
         "args": {
-          "tmpl_id": 999
+          "tmpl_id": 1
         }
       }
     },
     {
-      "id": 100,
+      "id": 2,
       "type": "text",
-      "title": "Shopaholic",
-      "text": "For those of you who are interested in knowing if prices are creeping up or skyrocketing, this list is a must have list.",
+      "title": "Retail trader",
+      "text": "A good-to-know list of indicators for those of you that engages in retail trade within the country.",
       "action": {
         "type": "open",
         "api": "snippets",
         "args": {
-          "tmpl_id": 999
+          "tmpl_id": 2
         }
       }
     },
     {
-      "id": 100,
+      "id": 2,
       "type": "text",
-      "title": "Wholesales & Retail",
-      "text": "This set of indicators will keep you informed of the trends imports and local prices.",
+      "title": "Wholesale trader",
+      "text": "Indicators for the wholesales businesses that regular engages in foreign trade.",
       "action": {
         "type": "open",
         "api": "snippets",
         "args": {
-          "tmpl_id": 999
+          "tmpl_id": 3
         }
       }
     },
     {
-      "id": 100,
+      "id": 2,
       "type": "text",
-      "title": "Money & Banking",
-      "text": "Important indicators for those who are engaged in banking, insurance and borrowing sector.",
+      "title": "Tourim indicators",
+      "text": "A collection of indicators for those who have an interest in how the tourism sector is perfoming.",
       "action": {
         "type": "open",
         "api": "snippets",
         "args": {
-          "tmpl_id": 999
+          "tmpl_id": 4
         }
       }
     },
     {
-      "id": 100,
+      "id": 2,
       "type": "text",
-      "title": "Sukhmeet Gorae",
-      "text": "Torquatos nostros? quos dolores suscipiantur maiorum dolorum fuga et quale.",
+      "title": "Forex trader",
+      "text": "Must-know indicators for anyone that's regulary dealing in foreign exchange market. Includes forex rates and other indicators that can impact the forex market.",
       "action": {
         "type": "open",
         "api": "snippets",
         "args": {
-          "tmpl_id": 999
+          "tmpl_id": 5
         }
       }
     },
     {
-      "id": 100,
+      "id": 2,
       "type": "text",
-      "title": "El Pasha",
-      "text": "Hanc ego cum soluta nobis est primum igitur, inquit, sic agam, ut et fortibus viris commemorandis eorumque.",
+      "title": "Borrower & lend essentials",
+      "text": "Essential list of indicators for those who regular borrow and/or lend.",
       "action": {
         "type": "open",
         "api": "snippets",
         "args": {
-          "tmpl_id": 999
-        }
-      }
-    },
-    {
-      "id": 100,
-      "type": "text",
-      "title": "Martijn Dragonjer",
-      "text": "Filium morte multavit si sine causa? quae fuerit causa, nollem.",
-      "action": {
-        "type": "open",
-        "api": "snippets",
-        "args": {
-          "tmpl_id": 999
+          "tmpl_id": 6
         }
       }
     }
