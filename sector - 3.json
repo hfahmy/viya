@@ -1,0 +1,302 @@
+{
+  "id": 0,
+  "type": "list",
+  "attr": {},
+  "data": [
+    {
+      "id": 1,
+      "type": "banner",
+      "title": "Hint",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in sem finibus, fermentum ligula non, elementum felis. Maecenas imperdiet risus eu quam pellentesque tincidunt.",
+      "action": {
+        "type": "dismiss",
+        "name": "Got it!"
+      }
+    },
+    {
+      "id": 10,
+      "type": "list",
+      "data": [
+        {
+          "id": 11,
+          "type": "text",
+          "title": "External trade"
+        },
+        {
+          "id": 12,
+          "type": "img",
+          "res": "external_banner"
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "Total exports (f.o.b) observed an annual decline in May 2020. The fall in total exports stemmed from the decrease in both re-exports and domestic exports. The decrease in domestic exports was largely driven by the decline in export earnings from frozen skipjack tuna, fresh or chilled yellowfin tuna, together with frozen yellowfin tuna exports."
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 2039,
+              "type": "val",
+              "name": "Exports",
+              "date": "2020-05-01",
+              "value": "11469976.5592063",
+              "scale": null,
+              "is_flow": false,
+              "unit": "US dollar",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2039
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2039,
+              "type": "chg",
+              "name": "Exports",
+              "date": "2020-05-01",
+              "chg": "-4155230.4313919",
+              "chg_intvl": "m",
+              "scale": null,
+              "unit": "US dollar",
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2039
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2039,
+              "type": "comp",
+              "name": "Exports",
+              "date": "2020-05-01",
+              "comp": [
+                {
+                  "name": "Domestic exports",
+                  "value": "8215292.66428107"
+                },
+                {
+                  "name": "Re-exports",
+                  "value": "3254683.89492524"
+                },
+                {
+                  "name": "Private sector",
+                  "value": "4048731.47430059"
+                },
+                {
+                  "name": "Public sector",
+                  "value": "4166561.18998048"
+                },
+                {
+                  "name": "Other",
+                  "value": "0"
+                },
+                {
+                  "name": "Other",
+                  "value": "8215292.6642811"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2039
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "Total imports (c.i.f) observed an annual decline of 56% during the period. The decline in total imports, the most significant decreases were observed in the imports of petroleum products, construction-related items and food items; although the decline was broad-based across all major import categories. However, there was an increase in imports of pharmaceutical products."
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 2035,
+              "type": "val",
+              "name": "Imports",
+              "date": "2020-05-01",
+              "value": "99658599.1281718",
+              "scale": null,
+              "is_flow": false,
+              "unit": "US dollar",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2035
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2035,
+              "type": "chg",
+              "name": "Imports",
+              "date": "2020-05-01",
+              "chg": "-16602333.483011",
+              "chg_intvl": "m",
+              "scale": null,
+              "unit": "US dollar",
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2035
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2035,
+              "type": "comp",
+              "name": "Imports",
+              "date": "2020-05-01",
+              "comp": [
+                {
+                  "name": "Food items",
+                  "value": "25105772.8731295"
+                },
+                {
+                  "name": "Furniture, fixtures and fittings",
+                  "value": "4172278.10344828"
+                },
+                {
+                  "name": "Electronic and electrical appliances",
+                  "value": "3357068.25374105"
+                },
+                {
+                  "name": "Petroleum products",
+                  "value": "7275435.65972674"
+                },
+                {
+                  "name": "Other",
+                  "value": "59748044.238126"
+                },
+                {
+                  "name": "Other",
+                  "value": "159406643.3663"
+                },
+                {
+                  "name": "Other",
+                  "value": "259065242.49447"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2035
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "list",
+      "data": [
+        {
+          "id": 11,
+          "type": "text",
+          "title": "Gross International Reserves"
+        },
+        {
+          "id": 12,
+          "type": "img",
+          "res": "external_banner"
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "Gross international reserves decreased to US$836.9 million at the end of May 2020 from US$889.4 million at the end of April 2020."
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 2001,
+              "type": "val",
+              "name": "Gross international reserves",
+              "date": "2020-05-01",
+              "value": "836941459.781487",
+              "scale": null,
+              "is_flow": false,
+              "unit": "US dollar",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2001
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2001,
+              "type": "chg",
+              "name": "Gross international reserves",
+              "date": "2020-05-01",
+              "chg": "-52449987.826822",
+              "chg_intvl": "m",
+              "scale": null,
+              "unit": "US dollar",
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2001
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

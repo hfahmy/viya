@@ -1,0 +1,375 @@
+{
+  "id": 0,
+  "type": "list",
+  "attr": {},
+  "data": [
+    {
+      "id": 1,
+      "type": "banner",
+      "title": "Hint",
+      "text": "The real economy concerns the flow of goods and services (like tourism, wholesale & retail, etc). We'll be posting any noteworthy update on the sector to this page.",
+      "action": {
+        "type": "dismiss",
+        "name": "Got it!"
+      }
+    },
+    {
+      "id": 2,
+      "type": "list",
+      "data": [
+        {
+          "id": 3,
+          "type": "text",
+          "title": "Tourism"
+        },
+        {
+          "id": 4,
+          "type": "img",
+          "res": "tourism_banner"
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "text": "In May 2020, no new tourist arrivals were registered, while bednights fell significantly.\n\nThe halt in tourist arrivals stemmed from the government’s decision to impose travel restrictions with the temporary closure of the international border as a measure to contain the spread of COVID-19 pandemic."
+        },
+        {
+          "id": 6,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 1110,
+              "type": "val",
+              "name": "Resorts in operation",
+              "date": "2020-05-01",
+              "value": "30",
+              "scale": null,
+              "is_flow": false,
+              "unit": "resorts",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1110
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            },
+            {
+              "id": 1103,
+              "type": "val",
+              "name": "Tourist arrivals ",
+              "date": "2020-05-01",
+              "value": "0",
+              "scale": null,
+              "is_flow": true,
+              "unit": "tourists",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1103
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            },
+            {
+              "id": 1104,
+              "type": "chg",
+              "name": "Tourist bednights ",
+              "date": "2020-05-01",
+              "chg": "-4760.3588",
+              "chg_intvl": "m",
+              "scale": null,
+              "unit": "bednights",
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1104
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            },
+            {
+              "id": 1109,
+              "type": "val",
+              "name": "Occupancy rate",
+              "date": "2020-05-01",
+              "value": "0.017341",
+              "scale": null,
+              "is_flow": false,
+              "unit": "percent",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1109
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "text": "With these restrictions total number of inbound flights have significantly decreased as well."
+        },
+        {
+          "id": 6,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 1243,
+              "type": "val",
+              "name": "Total number of arrival flights",
+              "date": "2020-05-01",
+              "value": "134",
+              "scale": null,
+              "is_flow": true,
+              "unit": "flights",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1243
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            },
+            {
+              "id": 1243,
+              "type": "chg",
+              "name": "Total number of arrival flights",
+              "date": "2020-05-01",
+              "chg": "43",
+              "chg_intvl": "m",
+              "scale": null,
+              "unit": "flights",
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1243
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            },
+            {
+              "id": 1243,
+              "type": "comp",
+              "name": "Total number of arrival flights",
+              "date": "2020-05-01",
+              "comp": [
+                {
+                  "name": "Scheduled flights",
+                  "value": "85"
+                },
+                {
+                  "name": "General flights",
+                  "value": "49"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1243
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "text": "This has adversely affect the usable reserve. Foreign exchange market is expected to be experience a shortage in supply."
+        },
+        {
+          "id": 6,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 2006,
+              "type": "val",
+              "name": "Usable reserves",
+              "date": "2020-05-01",
+              "value": "201411073.210986",
+              "scale": null,
+              "is_flow": false,
+              "unit": "US dollar",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2006
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            },
+            {
+              "id": 2006,
+              "type": "chg",
+              "name": "Usable reserves",
+              "date": "2020-05-01",
+              "chg": "-29062366.660139",
+              "chg_intvl": "m",
+              "scale": null,
+              "unit": "US dollar",
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 2006
+                }
+              },
+              "attr": {
+                "sctr": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "list",
+      "data": [
+        {
+          "id": 11,
+          "type": "text",
+          "title": "Inflation"
+        },
+        {
+          "id": 12,
+          "type": "img",
+          "res": "inflation_banner"
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "The rate of inflation declined.The slowdown in inflation mainly reflected government subsidies on electricity and water charges; and extra allowances given by telecommunication companies due to COVID-19; as well as fall in housing rent–partially reflecting a temporary relief given on rent due to the pandemic–which offset the general increase in food prices."
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 1173,
+              "type": "val",
+              "name": "Consumer price index - National",
+              "date": "2020-05-01",
+              "value": "95.9805155736896",
+              "scale": null,
+              "is_flow": false,
+              "unit": "unit",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1173
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            },
+            {
+              "id": 1173,
+              "type": "chg",
+              "name": "Consumer price index - National",
+              "date": "2020-05-01",
+              "chg": "0.051664030815999",
+              "chg_intvl": "m",
+              "scale": null,
+              "unit": "unit",
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1173
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            },
+            {
+              "id": 1173,
+              "type": "comp",
+              "name": "Consumer price index - National",
+              "date": "2020-05-01",
+              "comp": [
+                {
+                  "name": "Food and non-alcoholic beverages",
+                  "value": "103.546012095383"
+                },
+                {
+                  "name": "Food",
+                  "value": "104.008357514113"
+                },
+                {
+                  "name": "Fish",
+                  "value": "105.191998889266"
+                },
+                {
+                  "name": "Alcoholic beverages, tobacco and narcotics",
+                  "value": "100.153452468147"
+                },
+                {
+                  "name": "Other",
+                  "value": "1255.5985152013"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1173
+                }
+              },
+              "attr": {
+                "sctr": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

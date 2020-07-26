@@ -1,0 +1,195 @@
+{
+  "id": 0,
+  "type": "list",
+  "attr": {},
+  "data": [
+    {
+      "id": 1,
+      "type": "banner",
+      "title": "Hint",
+      "text": "The montary sector is concern with the flow of money within the economy, such lending, borrowing and related indicators. Swipe to this page to see updates on such.",
+      "action": {
+        "type": "dismiss",
+        "name": "Got it!"
+      }
+    },
+    {
+      "id": 10,
+      "type": "list",
+      "data": [
+        {
+          "id": 11,
+          "type": "text",
+          "title": "Credit to Private Sector"
+        },
+        {
+          "id": 12,
+          "type": "img",
+          "res": "monetary_banner"
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "Credit to the private sector by commercial banks posted an annual growth of 7% at the end of May 2020, same as in April 2020."
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 3310,
+              "type": "val",
+              "name": "Claims on other sectors",
+              "date": "2020-05-01",
+              "value": "28179385000",
+              "scale": null,
+              "is_flow": false,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3310
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            },
+            {
+              "id": 3310,
+              "type": "comp",
+              "name": "Claims on other sectors",
+              "date": "2020-05-01",
+              "comp": [
+                {
+                  "name": "Claims on other financial corporations",
+                  "value": "730959000"
+                },
+                {
+                  "name": "Claims on public nonfinancial coporations",
+                  "value": "1921964000"
+                },
+                {
+                  "name": "Claims on private sector",
+                  "value": "25526462000"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3310
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "list",
+      "data": [
+        {
+          "id": 11,
+          "type": "text",
+          "title": "Reserve Money"
+        },
+        {
+          "id": 12,
+          "type": "img",
+          "res": "monetary_banner"
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "Reserve money (M0) observed a turnaround and increased in May 2020. As such, M0 recorded an annual increase of 2% in May 2020, after registering a declin of 8% in April 2020."
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 3325,
+              "type": "val",
+              "name": "Broad money",
+              "date": "2020-05-01",
+              "value": "38656558456.46",
+              "scale": null,
+              "is_flow": false,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3325
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            },
+            {
+              "id": 3325,
+              "type": "chg",
+              "name": "Broad money",
+              "date": "2020-05-01",
+              "chg": "530543458.09",
+              "chg_intvl": "m",
+              "scale": null,
+              "unit": "rufiyaa",
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3325
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            },
+            {
+              "id": 3325,
+              "type": "comp",
+              "name": "Broad money",
+              "date": "2020-05-01",
+              "comp": [
+                {
+                  "name": "Narrow money",
+                  "value": "16878123456.46"
+                },
+                {
+                  "name": "Quasi money",
+                  "value": "21778435000"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 3325
+                }
+              },
+              "attr": {
+                "sctr": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

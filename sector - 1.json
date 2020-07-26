@@ -1,0 +1,417 @@
+{
+  "id": 0,
+  "type": "list",
+  "attr": {},
+  "data": [
+    {
+      "id": 1,
+      "type": "banner",
+      "title": "Hint",
+      "text": "The fiscal sector is the government earning and spending. This page will show any noteworthy update on the goverment's earning and spending.",
+      "action": {
+        "type": "dismiss",
+        "name": "Got it!"
+      }
+    },
+    {
+      "id": 10,
+      "type": "list",
+      "data": [
+        {
+          "id": 11,
+          "type": "text",
+          "title": "Total Government Revenue"
+        },
+        {
+          "id": 12,
+          "type": "img",
+          "res": "fiscal_banner"
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "Total government revenue (excluding grants) observed a decline of in May 2020 when compared to last year."
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 1,
+              "type": "val",
+              "name": "Total revenue and grants",
+              "date": "2020-12-01",
+              "value": "29921571629",
+              "scale": null,
+              "is_flow": false,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 1,
+              "type": "comp",
+              "name": "Total revenue and grants",
+              "date": "2020-12-01",
+              "comp": [
+                {
+                  "name": "Current revenue",
+                  "value": "24382226985"
+                },
+                {
+                  "name": "Capital revenue",
+                  "value": "324451758"
+                },
+                {
+                  "name": "Grants",
+                  "value": "5214892886"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 1
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "This was owing to a fall in both tax and non-tax revenue. As such, tax revenue declined by MVR1.1 billion, while non-tax revenue decreased by MVR293.9 million"
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 16,
+              "type": "comp",
+              "name": "Tax revenue",
+              "date": "2020-12-01",
+              "comp": [
+                {
+                  "name": "Tourism tax",
+                  "value": "0"
+                },
+                {
+                  "name": "GST on tourism",
+                  "value": "5053539794"
+                },
+                {
+                  "name": "Import duty",
+                  "value": "3580630404"
+                },
+                {
+                  "name": "Goods and services tax",
+                  "value": "2900960055"
+                },
+                {
+                  "name": "Other",
+                  "value": "6317123608"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 16
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 17,
+              "type": "val",
+              "name": "Tourism tax",
+              "date": "2020-12-01",
+              "value": "0",
+              "scale": null,
+              "is_flow": true,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 17
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 18,
+              "type": "val",
+              "name": "Tourism goods and services tax receipts",
+              "date": "2020-12-01",
+              "value": "5053539794",
+              "scale": null,
+              "is_flow": true,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 18
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 19,
+              "type": "val",
+              "name": "Import duty receipts",
+              "date": "2020-12-01",
+              "value": "3580630404",
+              "scale": null,
+              "is_flow": true,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 19
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 20,
+              "type": "val",
+              "name": "General goods and services tax receipts",
+              "date": "2020-12-01",
+              "value": "2900960055",
+              "scale": null,
+              "is_flow": false,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 20
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "list",
+      "data": [
+        {
+          "id": 11,
+          "type": "text",
+          "title": "Total Government Expenditure"
+        },
+        {
+          "id": 12,
+          "type": "img",
+          "res": "fiscal_banner"
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "Total expenditure (excluding amortisation) increased byMVR52.4 million (or 3%) in May 2020 when compared with May2019."
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 5,
+              "type": "val",
+              "name": "Total expenditure",
+              "date": "2020-12-01",
+              "value": "35966371019",
+              "scale": null,
+              "is_flow": true,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 5
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 5,
+              "type": "comp",
+              "name": "Total expenditure",
+              "date": "2020-12-01",
+              "comp": [
+                {
+                  "name": "Current expenditure",
+                  "value": "22337870621"
+                },
+                {
+                  "name": "Capital expenditure",
+                  "value": "13628500398"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 5
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "text": "The growth in expenditure stemmed from an increase in capitalexpenditure, which posted an increase of MVR280.5 million,while recurrent expenditure declined by MVR228.1 million."
+        },
+        {
+          "id": 14,
+          "type": "list",
+          "attr": {
+            "is_grid": "true"
+          },
+          "data": [
+            {
+              "id": 30,
+              "type": "val",
+              "name": "Expenditure on goods and services",
+              "date": "2020-12-01",
+              "value": "18438357703",
+              "scale": null,
+              "is_flow": true,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 30
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 6,
+              "type": "comp",
+              "name": "Current expenditure",
+              "date": "2020-12-01",
+              "comp": [
+                {
+                  "name": "Expenditure on goods and services",
+                  "value": "18438357703"
+                },
+                {
+                  "name": "Interest payments",
+                  "value": "1843741722"
+                },
+                {
+                  "name": "Subsidies and transfers",
+                  "value": "2055771196"
+                }
+              ],
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 6
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 7,
+              "type": "val",
+              "name": "Capital expenditure",
+              "date": "2020-12-01",
+              "value": "13628500398",
+              "scale": null,
+              "is_flow": true,
+              "unit": "rufiyaa",
+              "show_chart": true,
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 7
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            },
+            {
+              "id": 7,
+              "type": "chg",
+              "name": "Capital expenditure",
+              "date": "2020-12-01",
+              "chg": "5399725574",
+              "chg_intvl": "a",
+              "scale": null,
+              "unit": "rufiyaa",
+              "action": {
+                "type": "open",
+                "api": "db/series",
+                "args": {
+                  "id": 7
+                }
+              },
+              "attr": {
+                "sctr": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
